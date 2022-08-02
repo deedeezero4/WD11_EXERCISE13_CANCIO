@@ -1,0 +1,16 @@
+$primary: rgb(10, 210, 233);
+$dark: yellow;
+$modal-backdrop-bg: green;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$cancio-theme-colors: (
+    "favorite1" : rgb(40, 240, 0),
+    "favorite2" : violet
+);
+
+$theme-colors: map-merge($cancio-theme-colors , $theme-colors );
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
